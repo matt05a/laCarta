@@ -1,0 +1,85 @@
+/*MAIN*/
+
+/*MOBILE*/
+@media (max-width:425px) {
+    main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 50px 50px;
+    height: 100%;
+}
+
+main aside {
+    margin: 0;
+    width: 25%;
+    border-right: 1px solid var(--solorGrisOscuro);
+    padding: 0 20px 0 0;
+}
+
+main aside nav ul li {
+    padding: 5px 0;
+}
+
+main section {
+
+}
+
+main section h3 {}
+
+
+
+
+
+
+
+
+
+
+
+
+main section.home img.foto_producto {
+    border: 1px solid var(--colorGrisClaro);
+}
+
+main section.home div a {
+    font-weight: 900;
+    font-size: 1em;
+    color: var(--colorNegro);
+}
+}
+
+/*TABLET*/
+@media (min-width:768px) {
+    main {}
+    
+    main aside {}
+
+    main aside nav ul li {}
+
+    main section {}
+
+    main section h3 {}
+
+}
+
+@media (min-width:1024px) {
+    main {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin: 0 50px 50px;
+       height: 100%;
+
+    }
+
+    main aside {}
+
+    main aside nav ul li {}
+
+    main section {}
+
+    main section h3 {}
+    
+}
+
